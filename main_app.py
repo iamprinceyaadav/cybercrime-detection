@@ -21,6 +21,7 @@ st.set_page_config(
 )
 
 st.title("🔐 CyberCrime Detection System")
+st.write("Developed by Prince Yadav | Cybersecurity Research Project")
 st.write("AI-powered system to detect Phishing & Bank Fraud")
 st.divider()
 
@@ -173,7 +174,7 @@ def train_fraud_model():
 # ============================================
 # MODELS TRAIN KARO
 # ============================================
-with st.spinner("🤖 AI Models load ho rahe hain... thoda wait karo!"):
+with st.spinner("🔒 Security Engine Initializing..."):
     phishing_model          = train_phishing_model()
     fraud_model, scaler     = train_fraud_model()
 
@@ -353,4 +354,4 @@ with tab2:
 # Footer
 # ----------------------------------------
 st.divider()
-st.caption("Made by Prince Yadav 👨‍💻 | AI-Enabled Cybercrime Detection System")
+st.caption("© Prince Yadav | Cybersecurity Research Internship 2025 | All Rights Reserved")
